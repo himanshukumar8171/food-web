@@ -1,0 +1,47 @@
+.header{
+    height: 34vw;
+    margin: 30px auto;
+    background: url("../../assets/frontend_assets/header_img.png");
+    background-size: contain;
+    position: relative;
+    background-repeat: no-repeat;
+    margin-left: 130px;
+   
+}
+.header-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    animation: loade 3s;
+
+}
+.header-heading{
+   font-weight:  500;
+   color: white;
+   font-size: max(4.5vw,22px);
+}
+.header-container p{
+    color: white;
+    font-size: 1rem;
+}
+.header-container button{
+    padding: 10px 35px;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+@keyframes loade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}

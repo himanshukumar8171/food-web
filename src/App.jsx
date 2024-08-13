@@ -6,6 +6,7 @@ import {Route,Routes} from 'react-router-dom'
 import Home from './pages/Home/Home'
 import Cart from './pages/cart/Cart'
 import Placeorder from './pages/placeOrder/Placeorder'
+import Footer from './components/Footer/Footer'
 
 function App() {
   // eslint-disable-next-line no-unused-vars
@@ -20,6 +21,7 @@ function App() {
   <Route path = "/order" element={<Placeorder/>}/>
 
 </Routes>
+<Footer/>
 </>
   )
 }

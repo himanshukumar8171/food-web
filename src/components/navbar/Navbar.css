@@ -7,7 +7,8 @@
   }
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0px 130px;
     align-items: center;
 
 }
@@ -20,7 +21,7 @@
     justify-content: center;
     
 }
-.nav-item-fet li{
+.nav-item-fet a{
     margin:0px 20px;
     list-style: none;
     text-decoration: none;
